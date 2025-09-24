@@ -64,4 +64,4 @@ Follow these steps carefully whenever a station or path needs correction.
 
 A short recording of the osm workflow is available here:  
 
-👉 [Watch the OSM Fix Workflow Demo (Google Drive)](https://drive.google.com/file/d/17_zozcRZQQq3xgY4mhmcB-16J-cdBohO/view?usp=sharing)
+👉 [Watch the OSM Fix Workflow Demo (Google Drive)](https://drive.google.com/file/d/16OGL6I0CiXz2kHY1ptJVIyzJkxARMfqH/view?usp=sharing)
