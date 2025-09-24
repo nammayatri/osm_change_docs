@@ -53,65 +53,6 @@ Follow these steps carefully whenever a station or path needs correction.
 
 2. Save the `.osc` file.
 3. If you are not a developer send the downloaded file to a developer to integrate and test your changes locally
-4. Copy it into the nandi repo at:  
-
-```
-
-assets/
-
-````
-
----
-
-## 4. Apply Changes Locally
-
-Run the following command (replace filenames as needed):
-
-```bash
-osmium apply-changes bangalore.osm.pbf changes.osc -o bangalore.updated.osm.pbf
-````
-
-```bash
-osmium apply-changes <osm-file-name>.osm.pbf changes.osc -o <osm-file-name>.updated.osm.pbf
-```
-
-### Example:
-
-```bash
-osmium apply-changes bangalore.osm.pbf station_fix.osc -o bangalore.updated.osm.pbf
-```
-
----
-
-## 5. Update Files in Repo
-
-1. Delete the old OSM `.pbf` file.
-2. Rename the updated file back to the original name.
-
----
-
-## 6. Commit & Push
-
-```bash
-git add .
-git commit -m "fix: <station_name> OSM correction"
-git fetch origin
-git rebase origin/main
-git push origin HEAD
-```
-
----
-
-## 7. Deploy & Verify
-
-1. Trigger a Jenkins deploy.
-2. Verify changes on:
-
-   [Sandbox API](https://api.sandbox.moving.tech/nandi/)
-
-![Jenkins deploy](img/step7_jenkins.png)
-
----
 
 ## Notes
 
