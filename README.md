@@ -51,8 +51,9 @@ Follow these steps carefully whenever a station or path needs correction.
 
 ![Download OSC](img/step6_download.png)
 
-2. Save the `.osc` file.  
-3. Copy it into the nandi repo at:  
+2. Save the `.osc` file.
+3. If you are not a developer send the downloaded file to a developer to integrate and test your changes locally
+4. Copy it into the nandi repo at:  
 
 ```
 
